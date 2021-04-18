@@ -36,7 +36,7 @@ test:
 about:
   home: https://www.nengo.ai/nengo
   summary: Tools for building and simulating large-scale neural models
-  license: Apache-2.0
+  license: LicenseRef-NENGO
   license_file: LICENSE.rst
 
 extra:
