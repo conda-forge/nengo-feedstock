@@ -1,5 +1,5 @@
 {% set name = "nengo" %}
-{% set version = "4.0.0" %}
+{% set version = "4.1.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nengo-{{ version }}.tar.gz
-  sha256: d84c1886ba4049ee8285d2a038e11d57198dc2fdb1ed14e69a6b407eef777e1f
+  sha256: 0ed9df055fba64d5c25092d851cf1b65b07086c87ed589977a513729f548a395
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
